@@ -18,6 +18,7 @@ function App() {
       })
       .catch((err) => console.log(err));
   }, [term]);
+
   return (
     <div className="container mx-auto">
       <ImageSearch searchText={(text) => setTerm(text)} />
